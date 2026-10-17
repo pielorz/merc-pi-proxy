@@ -2,7 +2,7 @@
 
 <https://polyformproject.org/licenses/noncommercial/1.0.0>
 
-Copyright (c) 2025 pielorz
+Copyright (c) 2026 pielorz
 
 ## Acceptance
 
