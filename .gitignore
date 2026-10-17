@@ -1,0 +1,14 @@
+# Not published in this repo — kept locally only:
+after-uninstaller.jsonl
+PROJECT_SUMMARY.md
+build_installer.py
+installer_template.sh
+enable_keyboard_gadget.sh
+cmdline.txt
+config.txt
+modules
+
+# General noise
+__pycache__/
+*.pyc
+.DS_Store

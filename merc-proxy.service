@@ -1,0 +1,16 @@
+[Unit]
+Description=Merc Keyboard Hardware Proxy Service
+# No network dependencies: the USB gadget is local, ordering on
+# network.target only delayed boot needlessly.
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/fusey
+ExecStartPre=/bin/bash /usr/bin/enable_keyboard_gadget.sh
+ExecStart=/usr/bin/python3 /home/fusey/forward_merc.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
