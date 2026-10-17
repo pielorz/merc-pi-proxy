@@ -263,4 +263,6 @@ Two cautions:
 
 ## License
 
-Released under the [MIT License](LICENSE).
+Released under the [PolyForm Noncommercial License 1.0.0](LICENSE) — free to
+use, modify, and share, but not for commercial use (no selling the software
+itself, and no products or services built around it).
